@@ -244,9 +244,9 @@
 		<!-- Create tmp folder if missing -->
 		<mkdir dir="tmp"/>
         <GeneratePackage_xml
-            sfUserName = "${sf.username}" 
-            sfPassword = "$${sf.password}"
-            sfServerURL = "${sf.serverurl}"
+            sfUserName = "${RMBox.username}" 
+            sfPassword = "$${RMBox.password}"
+            sfServerURL = "${RMBox.serverurl}"
             packageXMLPath = "${basedir}/${sf.xmlPath}/Package.xml" 
             orgName="${sf.Name}"  />
             
